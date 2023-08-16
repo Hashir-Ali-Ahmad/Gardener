@@ -1,0 +1,211 @@
+
+.carosol1 {
+  background-image: linear-gradient(
+      rgba(15, 66, 41, 0.6),
+      rgba(15, 66, 41, 0.6)
+    ),
+    url(Images/asset\ 0.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.carosol2 {
+  background-image: linear-gradient(
+      rgba(15, 66, 41, 0.6),
+      rgba(15, 66, 41, 0.6)
+    ),
+    url(Images/asset\ 1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-size: 1rem;
+}
+@media (min-width: 1000px) {
+  .cont-mid {
+    position: relative;
+    bottom: 120px;
+  }
+}
+.paralax1 {
+  background-image: linear-gradient(
+      rgba(15, 66, 41, 0.6),
+      rgba(15, 66, 41, 0.6)
+    ),
+    url(Images/asset\ 1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+/* --------------Parallax----------------- */
+.paralax2 {
+  background-image: linear-gradient(
+      rgba(15, 66, 41, 0.6),
+      rgba(15, 66, 41, 0.6)
+    ),
+    url(Images/asset\ 0.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+/*------------------Start of Our Services----------------- */
+.servcard1:hover {
+  color: white;
+  background-image: linear-gradient(
+      rgba(15, 66, 41, 0.445),
+      rgba(15, 66, 41, 0.568)
+    ),
+    url(Images/asset\ 3.jpeg);
+  background-size: cover;
+}
+.servcard2:hover {
+  color: white;
+  background-image: linear-gradient(
+      rgba(15, 66, 41, 0.445),
+      rgba(15, 66, 41, 0.568)
+    ),
+    url(Images/asset\ 5.jpeg);
+  background-size: cover;
+}
+.servcard3:hover {
+  color: white;
+  background-image: linear-gradient(
+      rgba(15, 66, 41, 0.445),
+      rgba(15, 66, 41, 0.568)
+    ),
+    url(Images/asset\ 7.jpeg);
+  background-size: cover;
+}
+.servcard4:hover {
+  color: white;
+  background-image: linear-gradient(
+      rgba(15, 66, 41, 0.445),
+      rgba(15, 66, 41, 0.568)
+    ),
+    url(Images/asset\ 9.jpeg);
+  background-size: cover;
+}
+.servcard5:hover {
+  color: white;
+  background-image: linear-gradient(
+      rgba(15, 66, 41, 0.445),
+      rgba(15, 66, 41, 0.568)
+    ),
+    url(Images/asset\ 11.jpeg);
+  background-size: cover;
+}
+.servcard6:hover {
+  color: white;
+  background-image: linear-gradient(
+      rgba(15, 66, 41, 0.445),
+      rgba(15, 66, 41, 0.568)
+    ),
+    url(Images/asset\ 13.jpeg);
+  background-size: cover;
+}
+.servall:hover a {
+  width: 140px;
+}
+.servall a {
+  transition: 0.3s;
+  width: 35px;
+  overflow: hidden;
+  height: 35px;
+}
+/* ----------------------End of our Services------------------------ */
+/* Start of our projects */
+.projects{
+  height: 319px;
+  background:linear-gradient(rgba(15, 66, 41, .6), rgba(15, 66, 41, .6)), url(1stbg.jpg) no-repeat center;
+  background-size: cover; 
+}
+.projectcards::before{
+  background: rgba(17, 146, 17, 0.575);
+  content: '';
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+  width: 0px;
+  transition: .5s;
+}
+.projectcards::after{
+  background: rgba(17, 146, 17, 0.575);
+  content: '';
+  position: absolute;
+  height: 100%;
+  right: 0px;
+  z-index: 2;
+  width: 0px;
+  transition: .5s;
+}
+.frontprocard{
+position: absolute;
+bottom: 132px;
+z-index: 10;
+width: 100%;
+opacity: 0;
+}
+.projectcards:hover::before{
+  width: 49.5%;
+}
+.projectcards:hover::after{
+  width:49.5%;
+}
+.projectcards:hover .frontprocard{
+ opacity: 1;
+}
+/* End of Projects */
+/* Our Teams */
+.insideteamcard{
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  width: 60%;
+  transition: .5s;
+  opacity: 0;
+  overflow: hidden;
+}
+.teamcard:hover .insideteamcard{
+opacity: 1;
+width: 80%;
+
+}
+/* Our Team End */
+/* Footer */
+.footer{
+  background-color: #0F4229;
+}
+.footer .insidefooter  ul a:hover{
+  color: #21995f !important;
+  letter-spacing: 1px;
+}
+/* Copyright */
+.copyrite{
+  background-color: #072A19;
+}
+/* Multiple page */
+.multipage{
+  background:linear-gradient(rgba(15, 66, 41, .6), rgba(15, 66, 41, .6)), url(Images/asset\ 1.jpeg) no-repeat center;
+  background-size: cover; 
+  background-position: center;
+}
+/* buttons hover */
+.bb:hover{
+color: black !important;
+background-color: #24744d;
+}
+.navho a:hover{
+  color: #24744d !important;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.drop a:hover{
+  color: white !important;
+  background-color: #09a158f5;
+}
+/* forms */
+input,textarea{
+  background:  rgba(218, 241, 241, 0.603) !important;
+}
